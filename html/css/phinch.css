@@ -1,0 +1,44 @@
+body{
+    background: black;
+    min-width: 1200px;
+}
+
+#header{
+    color: #aaaaaa;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#content{
+    text-align: center;
+}
+
+.name{
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+}
+
+#reset{
+    font-family: "Raleway", sans-serif;
+    color: #aaaaaa;
+    margin: auto;
+}
+
+#legend{
+    margin: auto;
+}
+
+.leger{
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+}
+
+#viz{
+    margin-left: 100px;
+}
+
+#exp{
+    font-family: "Raleway", sans-serif;
+    color: #cccccc;
+    text-align: center;
+}
