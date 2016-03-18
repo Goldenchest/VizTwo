@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Viz2</title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="Alison Tsai"> <!-- Your name here -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--# CSS #}-->
+  <link rel="stylesheet" href="css/style.css"> <!-- Add your CSS to this file -->
+
+  <!--# JAVASCRIPT #}-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> <!-- JQUERY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script> <!-- D3.js -->
+
+  <script src="js/viz_time_amt.js"></script> <!-- Write your D3.js code for the heatmap in this file -->
+</head>
+
+<body>
+  <div id = "header">
+        <h1 id = "title">Funding by City</h1>
+    </div>
+
+    <div id = "exp">
+        <p>Which cities are the source of the most funds on Bootloader, and how are these funds distributed among categories? This visualization shows these statistics. By default, only the top 5 donations by dollar amount from each city are shown for cleanliness, but the size of each city's bubble represents its relative size of dollars given over the dataset. While not very informative in this dataset, the colors of the cities are based on a weighted average of the donations (e.g. a city that only had technology donations would be pink). Hovering over a category hides all other category's lines, allowing for easier viewing of the biggest donations. Clicking on a city permanently shows only those lines until reset is clicked. Hovering or clicking a city shows all of that city's donations.</p>
+    </div>
+
+    <div id = "content">
+        <h2 id = "reset">Click here to reset</h2>
+    </div>
+    
+  <br><br><h1>Donation Times</h1>
+  <div class="chart"></div>
+</body>
+
+</html>
