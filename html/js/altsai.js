@@ -10,7 +10,7 @@ $(document).ready(function() {
         buckets = 9,
         bucketVals = [3900, 4300, 4700, 5100, 5500, 5900, 6300, 6700, 7100], // 3512 - 6955
         colors = ["#e5e4e2","#b6b6b4","#848482","#726e6d","#666362","#5c5858","#504a4b","#3d3c3a","#0c090a"],
-        catcolors = ["#336600","#0099FF","#FF0000","#FFFF00","#990099"], // category colors
+        catcolors = ["#009966","#6666CC","#CC3366","#CCFF66","#CC6633"], // category colors
         days = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
         times = ["1a", "2a", "3a", "4a", "5a", "6a", "7a", "8a", "9a", "10a", "11a", "12p", "1p", "2p", "3p", "4p", "5p", "6p", "7p", "8p", "9p", "10p", "11p", "12a"];
 
