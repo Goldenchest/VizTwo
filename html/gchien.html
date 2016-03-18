@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Viz2: Gary Chien</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Donation Heatmap">
+    <meta name="author" content="Gary Chien">
+	<link rel="stylesheet" href="css/gchien.css">
+	<script src="js/uStates.js"></script> <!-- creates uStates. -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="js/gchien.js"></script>
+</head>
+<body>
+	<div id="title">
+		<h2 id="header">Heatmap of average donations towards each category.</h2>
+	</div>
+	<div id="description">
+		<p>
+			This visualization is a heatmap representing the average amount of money donated towards a
+			specific category by each state. The user can select which category they would like to see
+			the heatmap for, and the map colors, map title, and legend will update accordingly. The US map was generated through
+			code borrowed from <a href="http://bl.ocks.org/NPashaP/a74faf20b492ad377312">http://bl.ocks.org/NPashaP/a74faf20b492ad377312</a>,
+			which includes a javscript file uStates.js. Of course, this code was heavily modified to fit my needs (even a lot of
+			uStates.js was rewritten). The colors and legend were generated using code adapted from <a href="http://bl.ocks.org/tjdecke/5558084">
+			http://bl.ocks.org/tjdecke/5558084</a>. Hovering over each state will display a toolkit showing the state's number of users, number of
+			donators, and the overall average amount of money donated.
+		</p>
+	</div>
+</body>
+</html>
