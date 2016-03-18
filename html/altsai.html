@@ -20,15 +20,11 @@
 
 <body>
   <div id = "header">
-        <h1 id = "title">Funding by City</h1>
+        <h1 id = "title">Funding by Time (Day and Hour of Week)</h1>
     </div>
 
     <div id = "exp">
-        <p>Which cities are the source of the most funds on Bootloader, and how are these funds distributed among categories? This visualization shows these statistics. By default, only the top 5 donations by dollar amount from each city are shown for cleanliness, but the size of each city's bubble represents its relative size of dollars given over the dataset. While not very informative in this dataset, the colors of the cities are based on a weighted average of the donations (e.g. a city that only had technology donations would be pink). Hovering over a category hides all other category's lines, allowing for easier viewing of the biggest donations. Clicking on a city permanently shows only those lines until reset is clicked. Hovering or clicking a city shows all of that city's donations.</p>
-    </div>
-
-    <div id = "content">
-        <h2 id = "reset">Click here to reset</h2>
+        <p> This visualization is a representation of the total amount of money donated within a one-hour range for any given day of the week. Amounts are divided into nine equal ranges, with lighter shades corresponding to lower amounts and darker shades to higher amounts. Mousing over a certain square will trigger a tooltip box that contains the total amount of money donated that hour of that day over the course of the month of data provided, as well as individual breakdowns per category. It also gives the square a linear gradient fill, with the coloring proportional to the amound donated per category. As funds donated tended to be relatively proportionate, however, the gradient coloring does not differ much from square to square.</p>
     </div>
     
   <br><br><h1>Donation Times</h1>
